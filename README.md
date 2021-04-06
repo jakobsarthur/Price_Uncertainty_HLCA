@@ -21,7 +21,7 @@ Two notebooks are provided to guide the users in how to use the various function
 - Numpy
 - Ray
 - pypardiso
-- pylcaio[https://github.com/OASES-project/pylcaio]
+- [pylcaio](https://github.com/OASES-project/pylcaio)
 - pymrio
 - ecospold2matrix
 - feather

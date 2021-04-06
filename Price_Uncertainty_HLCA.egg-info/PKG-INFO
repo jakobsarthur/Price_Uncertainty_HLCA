@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: Price-Uncertainty-HLCA
+Version: 0.1
+Summary: Arthur Jakobs
+Home-page: https://github.com/jakobsarthur/Price_Uncertainty_HLCA
+Author: Arthur Jakobs
+Author-email: arthur.jakobs@indecol.uni-freiburg.de
+License: BSD-3-Clause
+Description: # Uncertainty in Hybrid LCA from price variance
+        
+        This library can be used to map BACI trade flows to the reference products of
+        ecoinvent activities. It is built around a the hybridisatoin package for ecoinvent
+        3.5 and EXIOBASE pylcaio[https://github.com/MaximeAgez/pylcaio] by Maxime Agez[https://github.com/MaximeAgez].
+        
+        Price data is a crucial component linking physical LCA data with monetary MRIO data. 
+        Commodity price are subject to various market dynamics and trade relations, leading to high
+        variance in the pirce of the given commodity. This package links BACI trade flows
+        ecoinvent activities based on their reference product and geographical resolution/information
+        to obtain a volume weighted price distribution for the refrence products. 
+        
+        Two notebooks are provided to guide the users in how to use the various functions.
+        
+        ## Installation
+        
+        
+        
+        ## Contributing
+        
+        Details on how to contribute
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Description-Content-Type: text/markdown

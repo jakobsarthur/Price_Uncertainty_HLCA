@@ -1,17 +1,31 @@
-# Python skeleton
+# Uncertainty in Hybrid LCA from price variance
 
-Simple skeleton for Python libraries. See [INSTRUCTIONS.md](https://github.com/BONSAMURAIS/python-skeleton/blob/master/INSTRUCTIONS.md).
+This library can be used to map BACI trade flows to the reference products of
+ecoinvent activities. It is built around a fork the hybridisatoin package for ecoinvent
+3.5 and EXIOBASE pylcaio[https://github.com/MaximeAgez/pylcaio] by Maxime Agez[https://github.com/MaximeAgez].
+The relevant fork is found here[https://github.com/OASES-project/pylcaio].
 
-There are a number of good guides on how to create a README online, such as [makeareadme](https://www.makeareadme.com/) and [standard-readme](https://github.com/RichardLitt/standard-readme). Here is a basic template for an actual README.md file:
+Price data is a crucial component linking physical LCA data with monetary MRIO data. 
+Commodity price are subject to various market dynamics and trade relations, leading to high
+variance in the pirce of the given commodity. This package links BACI trade flows
+ecoinvent activities based on their reference product and geographical resolution/information
+to obtain a volume weighted price distribution for the refrence products. 
 
-# Project name
-
-Basic project description
+Two notebooks are provided to guide the users in how to use the various functions.
 
 ## Installation
 
-Details on how to install the package
+### Requirements
 
-## Contributing
+- Scipy
+- Numpy
+- Ray
+- pypardiso
+- pylcaio[https://github.com/OASES-project/pylcaio]
+- pymrio
+- ecospold2matrix
+- feather
 
-Details on how to contribute
+## Relevant Publications
+
+- Under review

@@ -1,0 +1,11 @@
+appdirs
+pylcaio (the fork from https://github.com/OASES-project/pylcaio)
+pymrio
+ecospold2matrix
+pypardiso
+ray
+feather
+pandas
+numpy
+scipy
+

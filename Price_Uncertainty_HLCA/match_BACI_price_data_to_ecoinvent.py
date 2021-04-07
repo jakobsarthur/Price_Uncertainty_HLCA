@@ -18,7 +18,7 @@ def Match_BACI_data_to_ecoinvent(
         outputDir=None,
         USD_EURO_exr=None,
         Nsamples=3000,
-        mapping_data_dir='./mapping_data/',
+        mapping_data_dir='../mapping_data/',
         region_mapping_dict_name='ecoinvent35-baci_region_mapping.json',
         commodity_mapping_dict_name='ecoinvent35-HS12_mapping.json',
         n_cores=None
@@ -110,7 +110,7 @@ def Match_BACI_data_to_ecoinvent(
         # only iterate over processes with the right units and with a cpc 
         # code that has at least 4 digits
 
-        if i%500 ==0:
+        if i%100 ==0:
             print('{} of total {}'.format(i+1, len(PRO.loc[(PRO['unitName']=='kg') &
                          (PRO['cpc'].str.split(':').str.get(0).str.len() >=4)])))
         
@@ -134,7 +134,6 @@ def readDataBACI(path_to_BACI_data, USD_EURO_exr=1):
 
     """
     print('reading in BACI data...')
-    baci_file = '/home/jakobs/data/BACI/BACI_HS12_V202001/BACI_HS12_Y2012_V202001.csv'
     baci_data = pd.read_csv(path_to_BACI_data, sep=',',
                             dtype={'t':int, 'i':int,
                                    'j':int, 'k':str,

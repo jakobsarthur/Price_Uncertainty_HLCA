@@ -11,7 +11,7 @@ variance in the pirce of the given commodity. This package links BACI trade flow
 ecoinvent activities based on their reference product and geographical resolution/information
 to obtain a volume weighted price distribution for the refrence products. 
 
-Two notebooks are provided to guide the users in how to use the various functions.
+Three [notebooks](https://github.com/jakobsarthur/Price_Uncertainty_HLCA/tree/main/Price_Uncertainty_HLCA/notebooks) are provided to guide the users in how to use the various functions.
 
 ## Installation
 

@@ -203,7 +203,7 @@ def model_variance_per_category(price_data, PRO, processlist, var_dic,
 def update_price_data(price_data, indices, s, processes_with_proxy_data):
 
     n = price_data.shape[1]
-    scale_multiplier = np.exp(-s/2)
+    scale_multiplier = np.exp(-s**2/2)
     for index in indices:
         price = price_data.loc[index,0]  # this is a fixed number so just take the first
         scale = price*scale_multiplier

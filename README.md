@@ -28,4 +28,4 @@ Three [notebooks](https://github.com/jakobsarthur/Price_Uncertainty_HLCA/tree/ma
 
 ## Relevant Publications
 
-- Under review
+- [Jakobs et al. 2021 - Price Variance in Hybrid-LCA Leads to Significant Uncertainty in Carbon Footprints](https://www.frontiersin.org/articles/10.3389/frsus.2021.666209/full)
